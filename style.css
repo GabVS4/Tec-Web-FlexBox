@@ -1,0 +1,233 @@
+.pag-container{
+    width: 1300px;
+    height:600px;
+    border-color: blue;
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    background-color: lightblue;
+    width: 20%;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+main{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+main div.qst{
+    display: flex;
+    gap: 5px;
+}
+
+.letra{
+    color: white;
+    font-size: 50px;
+}
+
+#qst1{
+    flex-direction: column;
+    align-items: end; 
+}
+
+#qst2{
+    flex-direction: row;
+    align-items: start; 
+}
+
+#qst3{
+    flex-direction: row;
+    justify-content: end; 
+}
+
+#qst4{
+    flex-direction: row;
+    justify-content: center; 
+}
+
+#qst5{
+    flex-direction: row;
+    align-content: start;
+    flex-wrap:wrap;
+}
+
+#qst6{
+    flex-direction: row-reverse;
+    align-content: start;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+#qst6 div.container:first-child{
+    order: +1;
+}
+
+#qst7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#qst7-1{
+    display:flex;
+    width: 100%;
+    height: 50%;
+    flex-direction: row;
+    align-content: start;
+    justify-content: space-around;
+}
+
+#qst7-2{
+    display:flex;
+    width: 100%;
+    height: 50%;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+}
+
+#qst8{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#qst9{
+    width: fit-content;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#qst9-1{
+    height: 240px;
+}
+#qst9-2{
+    height: 120px;
+}
+#qst9-3{
+    height: 360px;
+}
+
+#qst9 div.container{
+    width: 300px;
+}
+
+#qst10{
+    width: fit-content;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#qst10-1{
+    height:100%;
+}
+
+#qst10 div.container{
+    width: 300px;
+}
+
+#qst11{
+    flex-direction: row;
+    align-items: start; 
+}
+
+#vermelho{
+    background-color: red;
+}
+
+#qst12{
+    flex-direction: row;
+    align-items: start; 
+}
+
+#qst12 div.container:nth-child(2){
+    order: -1;
+    background-color: red;
+}
+
+#qst13{
+    flex-direction: row;
+    align-items: start; 
+}
+
+#qst13 div.container:nth-child(3){
+    order: -1;
+}
+
+#qst14{
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+
+}
+
+#qst14-1{
+    align-self: flex-start; 
+    justify-content: center;
+    background-color: red;
+}
+
+#qst15{
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+
+}
+
+#qst15-1{
+    align-self: flex-end; 
+    justify-content: center;
+    background-color: red;
+}
+
+#qst16{
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+}
+
+#qst16-1{
+    height: 100%;
+    background-color: red;
+}
+
+#qst17{
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+}
+
+#qst17-1{
+    flex-grow: 1;
+    justify-content: center;
+    background-color: red;
+}
+
+#qst18{
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+}
+
+#qst18-1{
+    flex-grow: 1;
+    justify-content: center;
+}
+
+
+
